@@ -1,4 +1,4 @@
 .PHONY: serve
 
 serve:
-	python -m http.server
+	cd docs && python -m http.server
